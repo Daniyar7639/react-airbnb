@@ -8,17 +8,11 @@ import data from "./data"
 
 
 function App() {
-  let cardData = data.map((d, id) => {
+  let cardData = data.map((d) => {
     return (
     <Card 
     key={d.id}
-    img={d.coverImg}
-    rating={d.stats.rating}
-    reviewCount={d.stats.reviewCount}
-    location={d.location}
-    title={d.title}
-    price={d.price}
-    openSpots={d.openSpots}
+    d = {d}
     />
   )
   })
@@ -35,3 +29,12 @@ function App() {
 }
 
 export default App;
+
+
+/*img={d.coverImg}
+rating={d.stats.rating}
+reviewCount={d.stats.reviewCount}
+location={d.location}
+title={d.title}
+price={d.price}
+openSpots={d.openSpots}*/
