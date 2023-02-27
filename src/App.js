@@ -3,22 +3,33 @@ import './App.css';
 import Main from './Component/Main';
 import Navbar from './Component/Navbar';
 import Card from './Component/Card';
-import image1 from "./images/image1.png"
+import data from "./data"
+
 
 
 function App() {
+  let cardData = data.map((d, id) => {
+    return (
+    <Card 
+    key={d.id}
+    img={d.coverImg}
+    rating={d.stats.rating}
+    reviewCount={d.stats.reviewCount}
+    location={d.location}
+    title={d.title}
+    price={d.price}
+    openSpots={d.openSpots}
+    />
+  )
+  })
   return (
     <div className="App">
       <Navbar />
       <Main />
-      <Card     
-      img={"image1.png"}
-      rating="5.0"
-      reviewCount={6}
-      country="USA"
-      title="Life Lessons with Katie Zaferes"
-      price={136}
-      />
+      <section className='cards'>
+      {cardData}
+      </section>
+      
     </div>
   );
 }
