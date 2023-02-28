@@ -1,44 +1,24 @@
 import React from 'react';
 import './App.css';
-import Main from './Component/Main';
-import Navbar from './Component/Navbar';
-import Card from './Component/Card';
-import data from "./data"
-import NavbarTravelJournal from './Component/NavbarTravel';
-import MainTravelJournal from './Component/MainTravel';
-import dataT from "../src/data/dataT"
+import Navigation from './Component/Navigation';
+import { Route, Routes } from 'react-router-dom';
+import Travel from './Component/Travel';
+import Airbnb from './Component/Airbnb';
+import NewPro from './Component/NewPro';
 
 
 
 function App() {
-  /*let cardData = data.map((d) => {
-    return (
-    <Card 
-    key={d.id}
-    {...d}
-    />
-  )
-  })*/
-  let cardDataT = dataT.map((item => {
-    return (
-      <MainTravelJournal 
-      key={item.id}
-      {...item}
 
-      />
-    )
-  }))
   return (
     <div className="App">
-      {/*<Navbar />
-      <Main />
-      <section className='cards'>
-      {cardData}
-    </section>*/}
-      <section className='travelJournal'>
-        <NavbarTravelJournal />
-        {cardDataT}
-      </section>
+      <Navigation />
+      <Routes>
+        <Route path='/airbnb' element={<Airbnb />}/>
+        <Route path='/travel' element={<Travel />} />
+        <Route path='/new' element={<NewPro />} />
+      </Routes>
+      
     </div>
   );
 }

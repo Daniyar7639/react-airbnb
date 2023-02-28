@@ -1,7 +1,6 @@
 import React from "react";
 
 const MainTravelJournal = (props) => {
-    console.log(props)
     return (
         <div className="mainT">
             <div className="mainT-img">

@@ -8,6 +8,10 @@
   overflow: hidden;
   margin: 20px auto; 
 }
+.navigation {
+  display: flex;
+  gap: 20px;
+}
 
 nav {
   max-width: 100%;
@@ -62,6 +66,7 @@ main {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  
 }
 .card {
   background: #FFFFFF;
@@ -70,10 +75,10 @@ main {
   line-height: 150%;
   padding-right: 18px;
   padding-top: 13px;
-  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-
+  flex: 0 0 auto;
+  
 }
 .card:first-child {
   padding-left: 36px;
@@ -112,7 +117,7 @@ main {
 }
 .card-title {
   overflow: hidden;
-  text-overflow: ellipsis;
+  
 }
 .bold {
   font-weight: 600;
