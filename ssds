@@ -1,0 +1,29 @@
+[33mcommit 1dc964127941dc9bf7882852bd76c3fa979de448[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Daniyar <dkurbanov7639@gmail.com>
+Date:   Tue Feb 28 09:57:51 2023 +0500
+
+    use spread operator to pass props
+
+[33mcommit 3b9cc9a33fce5d4f718231f16c914d7560932632[m
+Author: Daniyar <dkurbanov7639@gmail.com>
+Date:   Mon Feb 27 21:42:58 2023 +0500
+
+    pass object as props
+
+[33mcommit b9c1c33f2b45baf1ff3b2cc0a36949b90c729a72[m
+Author: Daniyar <dkurbanov7639@gmail.com>
+Date:   Mon Feb 27 21:16:36 2023 +0500
+
+    add reusable Card component
+
+[33mcommit ad64185448abbf5d240c38dc9824d0a6fe82a70e[m
+Author: Daniyar <dkurbanov7639@gmail.com>
+Date:   Mon Feb 27 09:25:17 2023 +0500
+
+    init pro
+
+[33mcommit 1c00fe699ed3762792ba102b937343e80468deb9[m
+Author: Daniyar <dkurbanov7639@gmail.com>
+Date:   Thu Feb 23 10:10:53 2023 +0500
+
+    Initialize project using Create React App
