@@ -89,3 +89,8 @@ color: #FFFFFF;
     line-height: 19px;
     cursor: pointer;
 }
+.meme-img {
+    max-width: 477px;
+    max-height: 268px;
+    margin-top: 36px;
+}

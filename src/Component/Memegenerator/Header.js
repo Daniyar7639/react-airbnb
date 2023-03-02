@@ -1,6 +1,6 @@
 import React from "react";
 import  "./MemeGenerator.css";
-import trollface from "../../images/imgForMeme/TrollFace.png"
+
 
 const Header = () => {
     return (
