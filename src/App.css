@@ -8,10 +8,18 @@
   overflow: hidden;
   margin: 20px auto; 
 }
+/*===============================NAVIGATION COMPONENT========================*/
 .navigation {
   display: flex;
   gap: 20px;
 }
+.navigation div h3:hover {
+  color: #f55a5a;
+  font-size: 26px;
+  
+}
+
+/*==========================END OF NAVIGATION COMPONENT=======================*/
 
 nav {
   max-width: 100%;

@@ -1,4 +1,4 @@
-import group from "../images/Group.png"
+import group from "../../images/Group.png"
 
 function Main () {
     return (

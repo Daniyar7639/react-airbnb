@@ -1,30 +1,25 @@
-import React from 'react';
-import './App.css';
-import Navigation from './Component/Navigation';
-import { Route, Routes } from 'react-router-dom';
-import Travel from './Component/Travel';
-import Airbnb from './Component/Airbnb';
-import NewPro from './Component/NewPro';
-
-
+import React from "react";
+import "./App.css";
+import Navigation from "./Component/Navigation";
+import { Route, Routes } from "react-router-dom";
+import Travel from "./Component/Travel/Travel";
+import Airbnb from "./Component/Airbnb/Airbnb";
+import MemeGenerator from "./Component/Memegenerator/Memegenerator";
 
 function App() {
-
   return (
     <div className="App">
       <Navigation />
       <Routes>
-        <Route path='/airbnb' element={<Airbnb />}/>
-        <Route path='/travel' element={<Travel />} />
-        <Route path='/new' element={<NewPro />} />
+        <Route path="/airbnb" element={<Airbnb />} />
+        <Route path="/travel" element={<Travel />} />
+        <Route path="/meme" element={<MemeGenerator />} />
       </Routes>
-      
     </div>
   );
 }
 
 export default App;
-
 
 /*img={d.coverImg}
 rating={d.stats.rating}
@@ -34,7 +29,7 @@ title={d.title}
 price={d.price}
 openSpots={d.openSpots}*/
 
-      /*img={item.imageUrl}
+/*img={item.imageUrl}
       location={item.location}
       googleMapsUrl={item.googleMapsUrl}
       title={item.title}

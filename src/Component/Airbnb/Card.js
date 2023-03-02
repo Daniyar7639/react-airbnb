@@ -1,5 +1,5 @@
 import React from "react"
-import star1 from "../images/Star1.png"
+import star1 from "../../images/Star1.png"
 
 export default function Card (props) {
     
@@ -13,7 +13,7 @@ export default function Card (props) {
         <div className="card">
             <div className="card-img">
                 {badgeText && <div className="card-badge">{badgeText}</div>}
-                <img className="card-img1" src={require(`..//images/${props.coverImg}`)} alt="img" />
+                <img className="card-img1" src={require(`../../images/${props.coverImg}`)} alt="img" />
             </div>
             <div className="card-stats">
                 <img className="card-star" src={star1} alt="img"/>

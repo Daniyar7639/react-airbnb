@@ -1,5 +1,5 @@
 import React from "react"
-import path from "../images/travel.jpg"
+import path from "../../images/travel.jpg"
 export default function NavbarTravelJournal() {
     return (
         <div className="navT">
