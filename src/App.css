@@ -13,10 +13,17 @@
   display: flex;
   gap: 20px;
 }
+.navigation div h3 {
+  color: rgb(212, 25, 103);
+}
 .navigation div h3:hover {
-  color: #f55a5a;
-  font-size: 26px;
+  color: #5af57c;
+  font-size: 16px;
   
+}
+.navigation div p {
+  color: white;
+  text-decoration: none;
 }
 
 /*==========================END OF NAVIGATION COMPONENT=======================*/
@@ -185,8 +192,8 @@ main {
 /*==============Travel Journal section==================*/
 
 section {
-  max-width: 550px;
-  min-height: 704px;
+  min-width: 550px;
+  height: 100%;
   background: white;
 }
 .navT {

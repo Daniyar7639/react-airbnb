@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Travel from "./Component/Travel/Travel";
 import Airbnb from "./Component/Airbnb/Airbnb";
 import MemeGenerator from "./Component/Memegenerator/Memegenerator";
+import SignUPForm from "./Component/SignUpForm/SignUpForm";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/airbnb" element={<Airbnb />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/meme" element={<MemeGenerator />} />
+        <Route path="/form" element={<SignUPForm />} />
       </Routes>
     </div>
   );

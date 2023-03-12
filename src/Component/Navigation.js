@@ -16,6 +16,9 @@ export default function Navigation() {
             <div>
                 <NavLink to='/meme'><p> MemeGenerator </p></NavLink>
             </div>
+            <div>
+                <NavLink to='/form'><p>Sign up form</p></NavLink>
+            </div>
         </div>
     )
 }
