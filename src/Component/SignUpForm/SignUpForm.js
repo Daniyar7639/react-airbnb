@@ -21,8 +21,8 @@ export default function SignUPForm() {
     }
 
     function handleSubmit(event) {
-        state.password===state.passwordConfirm ? console.log("success password!") : console.log("password not match")
-        state.isChecked && console.log('Thanks for signing up for our newsletter')
+        state.password===state.passwordConfirm ? alert("success password!") : alert("password not match")
+        state.isChecked && alert('Thanks for signing up for our newsletter')
         event.preventDefault()
     }
 
@@ -70,6 +70,7 @@ export default function SignUPForm() {
                     Sign up
                 </button>
             </form>
+            
         </div>
     )
 }
